@@ -1,21 +1,26 @@
 /* --- Mobile  */
 @media (max-width: 739px) {
-
-}
-
-/* --- Tablet  */
-@media (min-width:740px) and (max-width: 1023px) {
-     .m-col-half {
-          width: 50%;
-          float: left;
+     .s-col-full {
+          width: 100%;
+     }
+     .nav-list {
+          display: none;
      }
 
+     
+}
+/* --- Mobile & Tablet  */
+@media (max-width: 1023px) {
      .project-list {
           display: block;
      }
 
      .about-list {
           display: block;
+     }
+
+     .about-item .about-contact {
+          background-color: #ccc;
      }
 
      #contact .contact-btn {
@@ -26,6 +31,17 @@
      .footer p {
           font-size: 24px;
      }
+}
+
+
+/* --- Tablet  */
+@media (min-width:740px) and (max-width: 1023px) {
+     .m-col-half {
+          width: 50%;
+          float: left;
+     }
+
+     
 }
 
 /* --- Pc  */
