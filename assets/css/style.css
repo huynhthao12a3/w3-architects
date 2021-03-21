@@ -17,13 +17,16 @@ html {
 .quarter-col {
      width: 25%;
 }
-.row-full {
+
+.col-full {
      width: 100%;
 }
 
 .mb-16 {
      margin-bottom: 16px;
 }
+
+
 
 
 /* --- Header  */
@@ -201,4 +204,71 @@ html {
 .about-item .about-contact:hover {
      background-color: #ccc;
      cursor: pointer;
+}
+
+/* Contact  */
+#contact {
+     max-width: 1564px;
+     padding:0 32px 32px;
+     margin: 0 auto;
+}
+
+#contact h4 {
+     font-size: 24px;
+     padding: 16px 0;
+     margin: 10px 0;
+
+}
+
+#contact p {
+     font-size: 15px;
+     margin: 16px 0;
+}
+
+#contact .contact-item {
+     padding: 8px;
+     border: 1px solid #d2d2d2;
+     line-height: 1.4;
+}
+
+#contact .contact-btn {
+     padding: 8px 16px;
+     margin: 16px 0;
+     border: none;
+     background-color: #000;
+     color: #fff;
+}
+
+#contact .contact-btn:hover {
+     background-color: #ccc;
+     color: #000;
+     cursor: pointer;
+}
+
+/* Image  */
+#content .content-img {
+     max-width: 1564px;
+     padding: 0 32px;
+     margin: 0 auto;
+}
+
+
+ /* --- Footer  */
+.footer {
+     padding: 16px 0;
+     background-color: #000;
+     color: #fff;
+}
+
+.footer p {
+     margin: 15px 0;
+     text-align: center;
+}
+
+.footer a {
+     color: #fff;
+}
+
+.footer a:hover {
+     color: #4caf2e;
 }
