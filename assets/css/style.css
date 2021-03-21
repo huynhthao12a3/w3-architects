@@ -1,0 +1,204 @@
+
+/* --- Reset CSS  */
+
+* { 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-size: 100%;
+}
+
+html {
+     font-family: "Roboto Mono", monospace;
+}
+
+/* --- Dùng Chung  */
+
+.quarter-col {
+     width: 25%;
+}
+.row-full {
+     width: 100%;
+}
+
+.mb-16 {
+     margin-bottom: 16px;
+}
+
+
+/* --- Header  */
+
+.navbar {
+     width: 100%;
+     display: flex;
+     height: 52px;
+     background: #fff;
+     justify-content: space-between;
+     padding: 8px 16px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 1;
+}
+
+.header a {
+     color: #333;
+     font-size: 15px;
+     text-decoration: none;
+     padding: 8px 16px;
+     display: block;
+     border-radius: 2px;
+     text-align: center;
+     letter-spacing: 3px; /* Khỏang cách giữa các chữ */
+}
+
+.header a:hover {
+     background-color: #ddd;
+}
+
+.header b {
+     font-weight: bolder;
+}
+
+
+.nav-list {
+     list-style-type: none;
+     display: flex;
+}
+
+
+ /* --- Content  */
+
+ /* Banner */
+#content .banner {
+     margin-top: 52px;
+     position: relative;
+}
+
+#content .banner img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+     margin: auto;
+     
+}
+
+#content .banner p {
+     color: #333;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     color: #fff;
+     font-size: 36px;
+     transform: translateX(-50%);
+     text-shadow: 0 0 1px #333;
+}
+
+#content .banner p b {
+     background-color: #35383b;
+     padding: 8px 16px;
+     opacity: 0.8;
+     letter-spacing: 4px;
+}
+
+/* Projects */
+.projects {
+     max-width: 1564px;
+     margin: 0 auto;
+     padding: 8px 16px;
+}
+
+.project-list {
+     display: flex;
+     padding: 0 8px;
+}
+
+.project-item {
+     padding: 0 8px;
+     position: relative;
+
+}
+
+.projects h3 {
+     font-size: 24px;
+     margin: 10px 0;
+     padding: 48px 16px;
+}
+
+.projects img {
+     width: 100%;
+}
+
+.projects p {
+     position: absolute;
+     top: 0;
+     left: 8px;
+     padding: 8px 16px;
+     background-color: #000000;
+     color: #fff;
+}
+
+/* About  */
+#about {
+     padding: 0 16px 32px;
+     max-width: 1564px;
+     margin: 0 auto;
+}
+.about-info {
+     padding: 32px 16px;
+}
+
+.about-info h3 {
+     padding: 16px 0;
+     font-size: 24px;
+}
+
+.about-info p {
+     font-size: 15px;
+     margin: 15px 0;
+}
+
+.about-list {
+     display: flex;
+     padding: 0 8px;
+}
+
+.about-item {
+     padding: 0 8px;
+     margin-bottom: 16px;
+}
+
+.about-item img {
+     width: 100%;
+}
+
+.about-item h4 {
+     margin: 10px 0;
+     font-size: 24px;
+}
+
+.about-item .about-job {
+     margin: 15px 0;
+     font-size: 15px;
+}
+
+.about-item .about-desc {
+     margin: 15px 0;
+     font-size: 15px;
+
+}
+
+.about-item .about-contact {
+     margin: 15px 0;
+     padding: 8px 16px;
+     font-size: 15px;
+     width: 100%;
+     border: none;
+     line-height: 1.6;
+}
+
+.about-item .about-contact:hover {
+     background-color: #ccc;
+     cursor: pointer;
+}
