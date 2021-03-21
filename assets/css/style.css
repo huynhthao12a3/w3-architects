@@ -103,7 +103,7 @@ html {
 }
 
 /* Projects */
-.projects {
+#projects {
      max-width: 1564px;
      margin: 0 auto;
      padding: 8px 16px;
@@ -120,17 +120,17 @@ html {
 
 }
 
-.projects h3 {
+#projects h3 {
      font-size: 24px;
      margin: 10px 0;
      padding: 48px 16px;
 }
 
-.projects img {
+#projects img {
      width: 100%;
 }
 
-.projects p {
+#projects p {
      position: absolute;
      top: 0;
      left: 8px;
