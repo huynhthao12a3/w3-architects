@@ -253,9 +253,13 @@ html {
      margin: 0 auto;
 }
 
+#content .content-img img {
+     width: 100%;
+}
 
  /* --- Footer  */
 .footer {
+     width: 100%;
      padding: 16px 0;
      background-color: #000;
      color: #fff;
