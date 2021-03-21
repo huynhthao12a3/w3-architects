@@ -26,6 +26,9 @@ html {
      margin-bottom: 16px;
 }
 
+.clear {
+     clear: both;
+}
 
 
 
@@ -121,7 +124,7 @@ html {
 .project-item {
      padding: 0 8px;
      position: relative;
-
+     margin-bottom: 16px;
 }
 
 #projects h3 {
@@ -161,6 +164,7 @@ html {
 .about-info p {
      font-size: 15px;
      margin: 15px 0;
+     text-align: justify;
 }
 
 .about-list {
@@ -175,6 +179,7 @@ html {
 
 .about-item img {
      width: 100%;
+     filter: grayscale(75%);
 }
 
 .about-item h4 {

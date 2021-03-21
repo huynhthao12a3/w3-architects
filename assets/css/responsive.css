@@ -5,10 +5,30 @@
 
 /* --- Tablet  */
 @media (min-width:740px) and (max-width: 1023px) {
+     .m-col-half {
+          width: 50%;
+          float: left;
+     }
 
+     .project-list {
+          display: block;
+     }
+
+     .about-list {
+          display: block;
+     }
+
+     #contact .contact-btn {
+          width: 100%;
+          padding: 16px;
+     }
+
+     .footer p {
+          font-size: 24px;
+     }
 }
 
 /* --- Pc  */
 @media (min-width: 1024px) {
-
+     
 }
